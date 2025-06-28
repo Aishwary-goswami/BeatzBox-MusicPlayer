@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatzBox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left ">
+            <div class="home ">
+                <span class="home-span"><img id="logo" src="favicon.ico" alt="logo">&nbsp;&nbsp;<b>BeatzBox</b>
+                    <div class="closebtn">
+                        <img src="crossIcon.svg" alt="cross">
+                    </div>
+                </span>
+
+                <ul>
+                    <li class="menu-item" id="home">
+                        <img class="icons" src="home.svg" alt="home">&nbsp;&nbsp;Home
+                    </li>
+                    <li class="menu-item" id="search">
+                        <img class="icons" src="search.svg" alt="search">&nbsp;&nbsp;Search
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="library ">
+                <div class="lib_box"><img src="musicIcon.svg" alt="musicIcon">&nbsp;&nbsp;&nbsp;&nbsp;
+                    Library&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                        id="plus" src="plus.svg" alt="plusIcon"></div>
+
+                <!-- <div class="playlist cont">
+                    <div class="content"><b>Create your first playlist</b><br>It's easy we'll help you</div>
+                    <button class="btn"><b>Create Playlist</b></button>
+                </div>
+                <div class="podcast cont">
+                    <div class="content"><b>Let's find some podcast to follow</b><br>We'll keep you updated </div>
+                    <button class="btn"><b>Browse Podcast</b></button>
+                </div> -->
+                <div class="songList dynamic-songs">
+                    <ol>
+
+                    </ol>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="right ">
+
+            <div class="header">
+
+                <div class="nav">
+                    <img class="hamburger" style="filter: invert(1); width:25px;" src="hamburger.svg" alt="hamburger">
+                    <img src="arrow_left.svg" alt="left">
+                    <img src="arrow_right.svg" alt="right">
+                </div>
+                <div class="buttons1">
+                    <button id="sgnup"><b>Sign Up</b></button>
+                    <button id="lgin"><b>Log In</b></button>
+                </div>
+            </div>
+
+            <div class="spo-ply">
+                <h4>BeatzBox Playlist</h4> show all
+            </div>
+
+            <div class="card-container">
+
+            </div>
+
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="seekbar-fill"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="songInformation flex align-center">
+                    <div class="songdtls">
+                    </div>
+                    <div class="songbuttons">
+                        <img id="previous" src="previous_btn.svg" alt="prev">
+                        <img id="play1" src="playbutton.svg" alt="pause">
+                        <img id="next" src="next_btn.svg">
+                    </div>
+                    <div class="flex align-center">
+                        <div class="songtime">
+                        </div>
+                        <div class="volume-button">
+                            <img src="volume.svg">
+                            <div class="range">
+                                <input type="range" name="volume" id="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+
+</html>
